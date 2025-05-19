@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333 !important; /* 화살표 색상 변경 */
+}
+
+.swiper-pagination-bullet {
+  background: #ccc; /* 기본 점 색상 */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000; /* 활성 점 색상 */
+}
