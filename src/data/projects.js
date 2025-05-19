@@ -72,8 +72,8 @@ export const projects = [
     description: "React + Tailwind로 만든 반응형 개인 프로필 사이트입니다.",
     thumbnail: RpImages[0],
     images: RpImages,
-    link: "https://your-site.com",
-    github: "https://github.com/your-repo",
-    notion: "https://www.notion.so/your-doc",
+    link: "https://my-profile-page-eight.vercel.app/",
+    github: "https://github.com/thusja/my-profile-page",
+    notion: "https://rough-lime-f80.notion.site/React-Project-1f82d24c870d8050adc7fbbdf97e58a3",
   },
 ];
