@@ -3,8 +3,10 @@ import { motion } from "framer-motion";
 import { AiFillHtml5, AiOutlineGithub } from "react-icons/ai";
 import { DiCss3Full } from "react-icons/di";
 import {
-  SiJavascript, SiTypescript, SiC, SiCplusplus, SiReact, SiReactrouter, SiFigma,
-  SiOracle, SiMysql, SiTailwindcss, SiMongodb, SiFirebase, SiPostman } from "react-icons/si";
+  SiJavascript, SiTypescript, SiC, SiCplusplus,
+  SiReact, SiReactrouter, SiFigma, SiOracle, 
+  SiMysql, SiTailwindcss, SiMongodb, SiFirebase,
+  SiPostman, SiSqlite, SiExpress, SiVercel, SiRender } from "react-icons/si";
 import { FaNodeJs, FaCuttlefish, FaServer } from "react-icons/fa";
 
 // 주 스킬
@@ -14,20 +16,22 @@ const mainSkills = [
   { name: "JavaScript", icon: <SiJavascript size={40} color="#f7df1e" /> },
   { name: "React", icon: <SiReact size={40} color="#61dafb" /> },
   { name: "Node.js", icon: <FaNodeJs size={40} color="#68a063" /> },
+  { name: "Express", icon: <SiExpress size={40} color="#404D59" /> },
   { name: "Oracle", icon: <SiOracle size={40} color="#F80000" /> },
-  { name: "MySQL", icon: <SiMysql size={40} color="#00758f" /> },
+  { name: "SQLite", icon: <SiSqlite size={40} color="#003B57" /> },
 ];
 
 // 서브 스킬
 const subSkills = [
   { name: "TypeScript", icon: <SiTypescript size={40} color="#3178c6" /> },
-  { name: "C", icon: <SiC size={40} color="#555" /> },
-  { name: "C++", icon: <SiCplusplus size={40} color="#00599c" /> },
+  // { name: "C", icon: <SiC size={40} color="#555" /> },
+  // { name: "C++", icon: <SiCplusplus size={40} color="#00599c" /> },
   { name: "C#", icon: <FaCuttlefish size={40} color="#68217A" /> },
   { name: "React Native", icon: <SiReactrouter size={40} color="#61dafb" /> },
   { name: "REST API", icon: <FaServer size={40} color="#888" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss size={40} color="#38bdf8" /> },
-  { name: "MongoDB", icon: <SiMongodb size={40} color="#47A248" /> },
+  { name: "MySQL", icon: <SiMysql size={40} color="#00758f" /> },
+  // { name: "MongoDB", icon: <SiMongodb size={40} color="#47A248" /> },
 ];
 
 // 유틸리티
@@ -36,6 +40,8 @@ const utilities = [
   { name: "Figma", icon: <SiFigma size={40} color="#a259ff" /> },
   { name: "Firebase", icon: <SiFirebase size={40} color="#FFCA28" /> },
   { name: "Postman", icon: <SiPostman size={40} color="#FF6C37" /> },
+  { name: "Vercel", icon: <SiVercel size={40} color="#000000" /> },
+  { name: "Render", icon: <SiRender size={40} color="#46E3B7" /> },
 ];
 
 // 반복 렌더링 섹션
