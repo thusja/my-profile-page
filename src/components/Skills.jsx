@@ -78,7 +78,7 @@ const SkillsSection = ({ title, skills }) => (
 // 전체 Skills 섹션
 const Skills = () => {
   return (
-    <section id="skills" className="bg-[#181818] text-white py-20 px-6">
+    <section id="skills" className="bg-[#242424] text-white py-20 px-6">
       <h2 className="text-7xl font-bold text-center mb-16">Skills</h2>
       <div className="max-w-6xl mx-auto">
         <SkillsSection title="Main Skills" skills={mainSkills} />
