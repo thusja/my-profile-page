@@ -2,7 +2,7 @@
 
 > 사용자 중심의 디자인과 성능을 모두 고려한 React 기반 포트폴리오 웹사이트입니다.
 
-![preview](./public/og-image.png)
+![preview](https://github.com/thusja/my-profile-page/blob/main/src/assets/React/RP01.PNG)
 
 ## 🚀 배포 주소
 
