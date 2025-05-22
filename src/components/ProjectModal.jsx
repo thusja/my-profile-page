@@ -56,7 +56,7 @@ export const ProjectModal = ({ project, onClose }) => {
               <img
                 src={img}
                 alt={`slide-${index}`}
-                className="w-full h-full object-cover"
+                className="w-full aspect-[4/2] object-cover"
               />
             </SwiperSlide>
           ))}

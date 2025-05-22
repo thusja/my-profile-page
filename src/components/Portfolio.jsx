@@ -22,13 +22,13 @@ const Portfolio = () => {
   const renderCard = (project) => (
     <div
       key={project.id}
-      className="cursor-pointer group overflow-hidden rounded-lg shadow-lg bg-[#1a1a1a] mx-auto max-w-[340px]"
+      className="cursor-pointer group overflow-hidden rounded-lg shadow-lg bg-[#424242] w-full max-w-sm"
       onClick={() => setSelected(project)}
     >
       <img
         src={project.thumbnail}
         alt={project.title}
-        className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition duration-300"
+        className="w-full aspect-[4/2.5] object-cover group-hover:scale-105 transition duration-300"
       />
       <div className="p-4">
         <h3 className="text-xl font-semibold">{project.title}</h3>
@@ -58,7 +58,7 @@ const Portfolio = () => {
           ))}
         </Swiper>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10 justify-items-center max-w-7xl mx-auto px-4">
           {projects.map((project) => renderCard(project))}
         </div>
       )}
