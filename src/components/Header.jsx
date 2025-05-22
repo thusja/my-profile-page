@@ -10,7 +10,12 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full bg-black bg-opacity-80 text-white z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* 로고 */}
-        <div className="text-xl font-bold tracking-wide">KJT</div>
+        <a
+          href="/"
+          className="text-xl font-bold tracking-wide hover:text-lime-400 transition"
+        >
+          KJT
+        </a>
 
         {/* 데스크탑 메뉴 */}
         <nav className="hidden md:flex gap-8 text-sm font-medium">
