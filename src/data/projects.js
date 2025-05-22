@@ -1,4 +1,4 @@
-import { ProjectImages } from "./imagedata";
+import { ProjectImages } from "./images";
 
 export const projects = [
   {
