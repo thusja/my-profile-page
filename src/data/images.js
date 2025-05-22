@@ -10,4 +10,5 @@ export const ProjectImages = {
   python: importAll(import.meta.glob('../assets/Python/*.{jpg,png,JPG,PNG}', { eager: true })),
   csharp: importAll(import.meta.glob('../assets/Cuttlefish/*.{jpg,png,JPG,PNG}', { eager: true })),
   react: importAll(import.meta.glob('../assets/React/*.{jpg,png,JPG,PNG}', { eager: true })),
+  travelFlow: importAll(import.meta.glob('../assets/TravelFlow/*.{jpg,png,JPG,PNG}', { eager: true })),
 };

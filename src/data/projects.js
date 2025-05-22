@@ -75,4 +75,13 @@ export const projects = [
     github: "https://github.com/thusja/my-profile-page",
     notion: "https://rough-lime-f80.notion.site/React-Project-1f82d24c870d8050adc7fbbdf97e58a3",
   },
+    {
+    id: 8,
+    title: "Full Stack Project",
+    summary: "여행은 흐름따라 TravelFlow",
+    description: "React + Tailwind로 만든 반응형 개인 프로필 사이트입니다.",
+    thumbnail: ProjectImages.travelFlow[0],
+    images: ProjectImages.travelFlow,
+    github: "https://github.com/thusja/travelflow",
+  },
 ];
