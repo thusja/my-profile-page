@@ -23,14 +23,14 @@ const mainSkills = [
 
 // 서브 스킬
 const subSkills = [
-  { name: "TypeScript", icon: <SiTypescript size={40} color="#3178c6" /> },
-  // { name: "C", icon: <SiC size={40} color="#555" /> },
-  // { name: "C++", icon: <SiCplusplus size={40} color="#00599c" /> },
-  { name: "C#", icon: <FaCuttlefish size={40} color="#68217A" /> },
   { name: "React Native", icon: <SiReactrouter size={40} color="#61dafb" /> },
   { name: "REST API", icon: <FaServer size={40} color="#888" /> },
+  { name: "TypeScript", icon: <SiTypescript size={40} color="#3178c6" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss size={40} color="#38bdf8" /> },
   { name: "MySQL", icon: <SiMysql size={40} color="#00758f" /> },
+  { name: "C", icon: <SiC size={40} color="#555" /> },
+  { name: "C++", icon: <SiCplusplus size={40} color="#00599c" /> },
+  { name: "C#", icon: <FaCuttlefish size={40} color="#68217A" /> },
   // { name: "MongoDB", icon: <SiMongodb size={40} color="#47A248" /> },
 ];
 
