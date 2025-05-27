@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { AiFillHtml5, AiOutlineGithub } from "react-icons/ai";
 import { DiCss3Full } from "react-icons/di";
 import {
-  SiJavascript, SiTypescript, SiC, SiCplusplus,
-  SiReact, SiReactrouter, SiFigma, SiOracle, 
-  SiMysql, SiTailwindcss, SiMongodb, SiFirebase,
-  SiPostman, SiSqlite, SiExpress, SiVercel, SiRender } from "react-icons/si";
+  SiJavascript, SiTypescript, SiC, SiCplusplus, SiReact,
+  SiReactrouter, SiFigma, SiOracle, SiMysql, SiTailwindcss,
+  SiMongodb, SiFirebase, SiPostman, SiSqlite, SiExpress,
+  SiVercel, SiRender, SiOpenai, SiNotion } from "react-icons/si";
 import { FaNodeJs, FaCuttlefish, FaServer } from "react-icons/fa";
 
 // 주 스킬
@@ -37,9 +37,11 @@ const subSkills = [
 // 유틸리티
 const utilities = [
   { name: "GitHub", icon: <AiOutlineGithub size={40} color="white" /> },
+  { name: "Notion", icon: <SiNotion size={40} color="black" /> },
   { name: "Figma", icon: <SiFigma size={40} color="#a259ff" /> },
-  { name: "Firebase", icon: <SiFirebase size={40} color="#FFCA28" /> },
+  { name: "GPT", icon: <SiOpenai size={40} color="#10a37f" /> },
   { name: "Postman", icon: <SiPostman size={40} color="#FF6C37" /> },
+  { name: "Firebase", icon: <SiFirebase size={40} color="#FFCA28" /> },
   { name: "Vercel", icon: <SiVercel size={40} color="#000000" /> },
   { name: "Render", icon: <SiRender size={40} color="#46E3B7" /> },
 ];
