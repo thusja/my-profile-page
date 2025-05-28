@@ -37,7 +37,7 @@ const subSkills = [
 // 유틸리티
 const utilities = [
   { name: "GitHub", icon: <AiOutlineGithub size={40} color="white" /> },
-  { name: "Notion", icon: <SiNotion size={40} color="black" /> },
+  { name: "Notion", icon: <SiNotion size={40} color="black" className="invert" /> },
   { name: "Figma", icon: <SiFigma size={40} color="#a259ff" /> },
   { name: "GPT", icon: <SiOpenai size={40} color="#10a37f" /> },
   { name: "Postman", icon: <SiPostman size={40} color="#FF6C37" /> },
