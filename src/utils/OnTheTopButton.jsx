@@ -4,19 +4,28 @@ import { FaArrowUp } from "react-icons/fa";
 const OnTheTopButton = () => {
   const [visible, setVisible] = useState(false);
 
-  // 스크롤 위치 감지
   useEffect(() => {
     const handleScroll = () => {
       const about = document.getElementById("about");
-      if (!about) return;
+      const footer = document.getElementById("footer");
 
-      const rect = about.getBoundingClientRect();
-      const isInView = rect.top <= window.innerHeight && rect.bottom >= 0;
-      setVisible(isInView);
+      if (!about || !footer) return;
+
+      const scrollY = window.scrollY;
+      const windowHeight = window.innerHeight;
+
+      const aboutTop = about.offsetTop;
+      const footerTop = footer.offsetTop;
+
+      const scrollBottom = scrollY + windowHeight;
+
+      // 버튼 노출 조건: scroll이 about 아래부터 footer 위까지일 때
+      const isInRange = scrollBottom >= aboutTop && scrollY <= footerTop;
+      setVisible(isInRange);
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // 초기 실행
+    handleScroll(); // 초기 체크
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 

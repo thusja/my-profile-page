@@ -4,7 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0d0d0d] text-gray-400 py-10 px-6 text-sm">
+    <footer id="footer" className="bg-[#0d0d0d] text-gray-400 py-10 px-6 text-sm">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         {/* 좌측 텍스트 */}
         <p>© 2025 KJT. All rights reserved.</p>
