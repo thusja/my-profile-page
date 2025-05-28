@@ -79,7 +79,7 @@ export const projects = [
     id: 8,
     title: "Full Stack Project",
     summary: "여행은 흐름따라 TravelFlow",
-    description: "React + Tailwind로 만든 반응형 개인 프로필 사이트입니다.",
+    description: "React, Node.js, mysql 기반의 여행 패키지 예약 풀스택 프로젝트입니다.",
     thumbnail: ProjectImages.travelFlow[0],
     images: ProjectImages.travelFlow,
     github: "https://github.com/thusja/travelflow",
