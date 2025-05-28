@@ -7,7 +7,8 @@ import {
   SiReactrouter, SiFigma, SiOracle, SiMysql, SiTailwindcss,
   SiMongodb, SiFirebase, SiPostman, SiSqlite, SiExpress,
   SiVercel, SiRender, SiOpenai, SiNotion } from "react-icons/si";
-import { FaNodeJs, FaCuttlefish, FaServer } from "react-icons/fa";
+import { FaNodeJs, FaServer } from "react-icons/fa";
+import { TbBrandCSharp } from "react-icons/tb";
 
 // 주 스킬
 const mainSkills = [
@@ -30,7 +31,7 @@ const subSkills = [
   { name: "MySQL", icon: <SiMysql size={40} color="#00758f" /> },
   { name: "C", icon: <SiC size={40} color="#555" /> },
   { name: "C++", icon: <SiCplusplus size={40} color="#00599c" /> },
-  { name: "C#", icon: <FaCuttlefish size={40} color="#68217A" /> },
+  { name: "C#", icon: <TbBrandCSharp size={40} color="#68217A" /> },
   // { name: "MongoDB", icon: <SiMongodb size={40} color="#47A248" /> },
 ];
 
