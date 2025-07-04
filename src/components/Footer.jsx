@@ -1,6 +1,5 @@
-import { FaGithub, FaYoutube, FaInstagram } from "react-icons/fa";
-import { SiKakaotalk } from "react-icons/si";
-import { FcGoogle } from "react-icons/fc";
+import { FaGithub } from "react-icons/fa";
+import { SiKakaotalk, SiNotion } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -17,14 +16,11 @@ const Footer = () => {
           <a href="https://github.com/thusja" target="_blank" rel="noopener noreferrer" title="GitHub">
             <FaGithub className="hover:text-white transition" />
           </a>
-          <a href="https://youtube.com/your-channel" target="_blank" rel="noopener noreferrer" title="YouTube">
-            <FaYoutube className="text-red-500 hover:scale-110 transition" />
-          </a>
-          <a href="https://instagram.com/your-handle" target="_blank" rel="noopener noreferrer" title="Instagram">
-            <FaInstagram className="text-pink-500 hover:scale-110 transition" />
-          </a>
-          <a href="mailto:your@gmail.com" title="Google Mail">
-            <FcGoogle className="text-xl hover:scale-110 transition" />
+          <a
+            href="https://rough-lime-f80.notion.site/Project-List-21e2d24c870d806c97ebedded3d13e55"
+            target="_blank" rel="noopener noreferrer" title="Notion"
+          >
+            <SiNotion className="hover:text-white transition" />
           </a>
         </div>
       </div>
